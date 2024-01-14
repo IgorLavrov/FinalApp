@@ -5,9 +5,10 @@ using System.Text;
 
 namespace FinalApp.Model
 {
+    [Table("Company")]
     public  class Company
     {
-        [PrimaryKey]
+        [PrimaryKey,AutoIncrement]
         public int ID { get; set; }
 
         public string Name { get; set; }
