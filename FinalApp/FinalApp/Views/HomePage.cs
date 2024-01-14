@@ -29,6 +29,7 @@ namespace FinalApp.Views
             button.Text = "Add Company";
             button.HeightRequest = 60;
             button.WidthRequest = 170;
+            button.BackgroundColor= Color.PaleGreen;
             button.Clicked += Button_Clicked;
             stackLayout.Children.Add(button);
 
@@ -36,11 +37,13 @@ namespace FinalApp.Views
             button.Text = "Get";
             button.HeightRequest = 60;
             button.WidthRequest = 170;
+            button.BackgroundColor= Color.Yellow;
             button.Clicked += Button_Get_Clicked;
             stackLayout.Children.Add(button);
 
             button = new Button();
             button.Text = "Edit";
+            button.BackgroundColor = Color.PaleGoldenrod;
             button.HeightRequest = 60;
             button.WidthRequest = 170;
             button.Clicked += Button_Edit_Clicked;
@@ -50,6 +53,11 @@ namespace FinalApp.Views
             button.Text = "Delete";
             button.HeightRequest = 60;
             button.WidthRequest = 170;
+            button.BackgroundColor = Color.PaleVioletRed;
+
+
+
+
             button.Clicked += Button_Delete_Clicked;
             stackLayout.Children.Add(button);
 

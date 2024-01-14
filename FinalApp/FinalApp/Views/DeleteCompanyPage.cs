@@ -51,7 +51,9 @@ namespace FinalApp.Views
                 TextColor = Color.White,
                 CornerRadius = 30,
                 WidthRequest = 180,
-                HeightRequest = 50
+                HeightRequest = 50,
+                Margin=5
+
             };
             _button.Clicked += _button_Clicked;
     
